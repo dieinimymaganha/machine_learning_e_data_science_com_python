@@ -26,14 +26,5 @@ from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
 previsores = scaler.fit_transform(previsores)
 
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 previsores_treinamento, previsores_teste, classe_treinamento, classe_teste = train_test_split(previsores, classe, test_size=0.15, random_state=0)
-
-# importação da biblioteca
-# criação do classificador
-classificador.fit(previsores_treinamento, classe_treinamento)
-previsoes = classificador.predict(previsores_teste)
-
-from sklearn.metrics import confusion_matrix, accuracy_score
-precisao = accuracy_score(classe_teste, previsoes)
-matriz = confusion_matrix(classe_teste, previsoes)
