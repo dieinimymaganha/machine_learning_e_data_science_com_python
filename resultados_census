@@ -16,3 +16,8 @@ Created on Mon Aug 26 17:02:57 2019
 0.8128 - Árvore de decisão (labelencoder)
 0.8102 - Árvore de decisão (labelencoder + onehotencoder)
 0.8128 - Árvore de decisão (labelencoder + escalonamento)
+
+0.8476 - Random forest n_estimators = 40 (labelencoder + onehotencoder + escalonamento)
+0.8471 - Random forest n_estimators = 40 (labelencoder)
+0.8489 - Random forest (labelencoder + onehotencoder)
+0.8483 - Random forest (labelencoder + escalonamento)
