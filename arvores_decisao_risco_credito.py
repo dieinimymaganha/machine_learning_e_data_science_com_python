@@ -37,7 +37,3 @@ export.export_graphviz(classificador,
 #história boa, dívida alta, garantias nenhuma, renda > 35
 # história ruim, dívida alta, garantidas adequada, renda < 15
 resultado = classificador.predict([[0 , 0, 1, 2],[3, 0, 0, 0]])
-
-print(classificador.classes_)
-print(classificador.class_count_)
-print(classificador.class_prior_)
