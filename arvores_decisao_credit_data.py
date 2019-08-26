@@ -27,12 +27,19 @@ from sklearn.model_selection import train_test_split
 previsores_treinamento, previsores_teste, classe_treinamento, classe_teste = train_test_split(previsores, classe, test_size=0.25, random_state=0)
 
 # importação da biblioteca
-from sklearn.tree import DecisionTreeClassifier
+# from sklearn.tree import DecisionTreeClassifier
 # criação do classificador
 # Utilizado random para não ter alterações na precisão
-classificador = DecisionTreeClassifier(criterion='entropy', random_state=0)
+# classificador = DecisionTreeClassifier(criterion='entropy', random_state=0)
+# classificador.fit(previsores_treinamento, classe_treinamento)
+# previsoes = classificador.predict(previsores_teste)
+
+from sklearn.ensemble import RandomForestClassifier
+classificador = RandomForestClassifier(n_estimators=40, criterion='entropy',
+                                       random_state=0)
 classificador.fit(previsores_treinamento, classe_treinamento)
 previsoes = classificador.predict(previsores_teste)
+
 
 from sklearn.metrics import confusion_matrix, accuracy_score
 previsao = accuracy_score(classe_teste, previsoes)
