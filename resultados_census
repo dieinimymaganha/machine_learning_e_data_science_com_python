@@ -5,6 +5,7 @@ Created on Mon Aug 26 17:02:57 2019
 
 @author: dieinimy
 """
+0.7559 - Base line classifier (ZeroR)
 
 0.4767 - Naive Bayes (labelencoder + onehotenconder + escalonamento)
 0.7952 - Naive Bayes (labelencoder)
@@ -21,3 +22,5 @@ Created on Mon Aug 26 17:02:57 2019
 0.8471 - Random forest n_estimators = 40 (labelencoder)
 0.8489 - Random forest (labelencoder + onehotencoder)
 0.8483 - Random forest (labelencoder + escalonamento)
+
+0.7880 - CAN2 (sem pré-processamento)
