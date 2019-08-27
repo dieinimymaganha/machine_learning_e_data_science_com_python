@@ -23,4 +23,9 @@ Created on Mon Aug 26 17:02:57 2019
 0.8489 - Random forest (labelencoder + onehotencoder)
 0.8483 - Random forest (labelencoder + escalonamento)
 
-0.7880 - CAN2 (sem pré-processamento)
+0.7880 - CN2 (sem pré-processamento)
+
+0.8223 - KNN 5 (labelencoder + onehotenconder + escalonamento),
+0.7746 - KNN 5 (labelencoder)
+0.7760 - KNN 5 (labelencoder + onehotencoder)
+0.8219 - KNN 5 (Naive Bayes (labelencoder + escalonamento)
