@@ -8,7 +8,7 @@ Created on Mon Aug 26 14:13:50 2019
 
 Credit Data
 -----------
-
+0.8720 - Base line classifier
 0.9379 - Naive Bayes (inconsistentes + faltantes + escalonamento)
 0.9819 - Árvore de decisão (inconsistentes + faltantes + escalonamento)
 
