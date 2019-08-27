@@ -30,7 +30,7 @@ previsores_treinamento, previsores_teste, classe_treinamento, classe_teste = tra
 # importação da biblioteca
 from sklearn.neighbors import KNeighborsClassifier
 # criação do classificador
-classificador =  KNeighborsClassifier()
+classificador =  KNeighborsClassifier(n_neighbors=5, metric='minkowski', p=2)
 classificador.fit(previsores_treinamento, classe_treinamento)
 previsoes = classificador.predict(previsores_teste)
 
