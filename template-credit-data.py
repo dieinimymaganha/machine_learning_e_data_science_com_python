@@ -27,3 +27,6 @@ previsoes = classificador.predict(previsores_teste)
 from sklearn.metrics import confusion_matrix, accuracy_score
 previsao = accuracy_score(classe_teste, previsoes)
 matriz = confusion_matrix(classe_teste, previsoes)
+
+import collections
+collections.Counter(classe_teste)
