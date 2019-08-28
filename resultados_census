@@ -34,3 +34,9 @@ Created on Mon Aug 26 17:02:57 2019
 0.7909 - Regressão logistica (labelencoder)
 0.7954 - Regressão logistica (labelencoder + onehotencoder)
 0.8184 - Regressão logistica (Naive Bayes (labelencoder + escalonamento)
+
+0.8507 - SVM 'linear' (labelencoder + onehotenconder + escalonamento)
+0.8491 - SVM 'rbf' (labelencoder + onehotenconder + escalonamento)
+? - SVM linear (labelencoder)
+? - SVM linear labelencoder + onehotencoder)
+0.8507 - SVM linear (Naive Bayes (labelencoder + escalonamento)
