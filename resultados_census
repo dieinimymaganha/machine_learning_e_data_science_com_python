@@ -29,3 +29,8 @@ Created on Mon Aug 26 17:02:57 2019
 0.7746 - KNN 5 (labelencoder)
 0.7760 - KNN 5 (labelencoder + onehotencoder)
 0.8219 - KNN 5 (Naive Bayes (labelencoder + escalonamento)
+
+0.8495 - Regressão logistica (labelencoder + onehotenconder + escalonamento)
+0.7909 - Regressão logistica (labelencoder)
+0.7954 - Regressão logistica (labelencoder + onehotencoder)
+0.8184 - Regressão logistica (Naive Bayes (labelencoder + escalonamento)
